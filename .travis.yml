@@ -1,3 +1,2 @@
 language: java
-  jdk: oraclejdk13
-  script: mvn test -Denv=local
+  script: mvn test -Denv=web
