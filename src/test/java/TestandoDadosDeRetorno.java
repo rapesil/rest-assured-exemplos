@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class TestandoDadosDeRetorno extends BaseTest {
-    @Test
-    public void deveRetornarOIpDeQuemFezORequest() {
-        String expectedIp = getIp();
-
-        given()
-        .when()
-            .get("/ip")
-        .then()
-            .statusCode(200)
-            .body("origin", is(expectedIp));
-    }
+//    @Test
+//    public void deveRetornarOIpDeQuemFezORequest() {
+//        String expectedIp = getIp();
+//
+//        given()
+//        .when()
+//            .get("/ip")
+//        .then()
+//            .statusCode(200)
+//            .body("origin", is(expectedIp));
+//    }
 
     @Test
     public void deveRetornarOUserAgentDeQuemFezORequest() {
