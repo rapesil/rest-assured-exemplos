@@ -22,7 +22,7 @@ public class BaseTest {
     }
 
     public static String getIp() {
-        return env.equals("local") ? "172.17.0.1" : "45.4.225.14, 45.4.225.14";
+        return env.equals("local") ? "172.17.0.1" : "52.167.126.9, 52.167.126.9";
     }
 
 }

@@ -18,7 +18,7 @@ public class TestandoDadosDeRetorno extends BaseTest {
 
     @Test
     public void deveRetornarOUserAgentDeQuemFezORequest() {
-        String expectedUserAgent = "Apache-HttpClient/4.5.3 (Java/13.0.1)";
+        String expectedUserAgent = "Apache-HttpClient/4.5.3 (Java/1.8.0_232)";
 
         given()
                 .when()
