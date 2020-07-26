@@ -1,3 +1,4 @@
+![Java CI](https://github.com/rapesil/rest-assured-exemplos/workflows/Java%20CI/badge.svg)
 # Projeto Simples para Treino do Rest Assured (JAVA) *** Em construcao ***
 
 ## Prerrequisitos
